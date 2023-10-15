@@ -13,7 +13,6 @@ int main(void) {
         printf("First Number: ");
         scanf("%d", &x);
 
-        // Clear the newline character left in the input buffer from the previous input
         while (getchar() != '\n');
 
         printf("Operation (+, x, -, /): ");
